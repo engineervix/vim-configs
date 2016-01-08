@@ -17,7 +17,7 @@
 - The cygwin terminal must be configured to use the font **inconsolata for powerline**, the font size must be set to 17.
 
 
-# Procedure
+## Procedure
 
 - There are two files you need from this repository: `.vimrc.after` and `vim_cygwin.tgz`. Once the prerequisites have been met, simply do the following:
   - You have to copy the `.vimrc.after` file into your home directory, and extract the compressed tarball `vim_cygwin.tgz` into your home directory.
