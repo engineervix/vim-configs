@@ -19,7 +19,7 @@
 - The shell you use must be configured to use the font **inconsolata for powerline**, the font size must be set to 17. You will notice that this is my default setup on all the machines I use.
 
 
-# Procedure
+## Procedure
 
 - There are three files you need from this repository: `.vimrc.after`, `.gvimrc.after` and `vim_ubuntu.tgz`. Once the prerequisites have been met, simply do the following:
   - You have to copy the `.vimrc.after` and `.gvimrc.after` files into your home directory, and extract the compressed tarball `vim_ubuntu.tgz` into your home directory.
