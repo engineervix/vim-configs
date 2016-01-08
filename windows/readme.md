@@ -1,3 +1,3 @@
-# vim setup on my Ubuntu Gnome Desktop
+# vim setup on my Windows Machines
 
 to be updated ...
