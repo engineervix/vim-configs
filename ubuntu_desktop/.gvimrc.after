@@ -1,0 +1,20 @@
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+
+"Strictly necessary for Powerline
+set encoding=utf-8
+
+" Always show statusline
+set laststatus=2
+
+" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
+
+"Set to whatever font you like.
+set gfn=Inconsolata\ for\ Powerline\ 17
+
+syntax enable
+filetype plugin indent on
+colorscheme kolor
+
+let g:syntastic_rst_checkers = ['rstcheck']
+let g:Powerline_symbols = 'fancy'
