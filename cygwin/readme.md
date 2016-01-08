@@ -8,12 +8,14 @@
 
 - this backup is essentially the [Janus distribution](https://github.com/carlhuda/janus), with a few minor customizations.
 
+
 ## Prerequisites
 
 - Works on 32-bit [Cygwin](http://cygwin.com/) Installation (I've never used it on a 64-bit Cygwin but I suppose it can work)
 - ensure [python](https://www.python.org/) is installed with the [powerline-status](https://pypi.python.org/pypi/powerline-status) plugin which can be installed via `pip install powerline-status`
 - ensure that you have [powerline fonts](https://github.com/powerline/fonts) installed on your system. Also Download and install the **Powerline Symbols** Font from [here](https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf)
 - The cygwin terminal must be configured to use the font **inconsolata for powerline**, the font size must be set to 17.
+
 
 # Procedure
 
