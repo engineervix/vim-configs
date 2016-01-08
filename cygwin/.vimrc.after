@@ -1,0 +1,24 @@
+syntax enable
+filetype plugin indent on
+colorscheme kolor
+if has('gui_running')
+  set background=light
+  set t_Co=16
+  "let g:solarized_termcolors=16
+  "colorscheme solarized
+endif
+set laststatus=2
+ 
+"Strictly necessary for Powerline
+set encoding=utf-8
+"Set to whatever font you like.
+set guifont=Inconsolata\ for\ Powerline:h17
+ 
+python from powerline.vim import setup as powerline_setup
+python powerline_setup()
+python del powerline_setup
+ 
+"Important for terminal vim to work in cygwin.
+set term=xterm-256color
+
+let g:syntastic_rst_checkers = ['rstcheck']
