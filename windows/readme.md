@@ -16,7 +16,7 @@
 - ensure that you have [powerline fonts](https://github.com/powerline/fonts) installed on your system. Also Download and install the **Powerline Symbols** Font from [here](https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf)
 
 
-# Procedure
+## Procedure
 
 - The is one file you need from this repository: `vim_windows.tgz`. Once the prerequisites have been met, simply:
   - Ensure that vim isn't running. Delete all the existing files and directories in `C:\Users\Somebody\Vim\`. You might get an error indicating that there's an error deleting `gvimext.dll` in the `vim74` directory -- that's okay, you can leave it there.
