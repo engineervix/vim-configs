@@ -17,7 +17,7 @@
 - The shell you use to `ssh` into your VPS must be configured to use the font **inconsolata for powerline**, the font size must be set to 17. You will notice that this is my default setup on all the machines I use.
 
 
-# Procedure
+## Procedure
 
 - There are two files you need from this repository: `.vimrc.after` and `vim_centOS_headless.tgz`. Once the prerequisites have been met, simply do the following:
   - You have to copy the `.vimrc.after` file into your home directory, and extract the compressed tarball `vim_centOS_headless.tgz` into your home directory.
