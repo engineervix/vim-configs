@@ -15,6 +15,7 @@
 ## Prerequisites
 
 - ensure [python](https://www.python.org/) is installed with the [powerline-status](https://pypi.python.org/pypi/powerline-status) plugin which can be installed via `pip install powerline-status`.
+- `sudo apt-get install vim-nox-py2`
 - ensure that you have [powerline fonts](https://github.com/powerline/fonts) installed on your system. Also Download and install the **Powerline Symbols** Font from [here](https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf). [This link](http://askubuntu.com/questions/283908/how-can-i-install-and-use-powerline-plugin) provides excellent instructions on how to install your fonts.
 - The shell you use must be configured to use the font **inconsolata for powerline**, the font size must be set to 17. You will notice that this is my default setup on all the machines I use.
 
