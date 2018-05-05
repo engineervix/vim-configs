@@ -1,4 +1,4 @@
-set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+set rtp+=/usr/local/lib/python3.5/dist-packages/powerline/bindings/vim/
 
 "Strictly necessary for Powerline
 set encoding=utf-8
@@ -14,7 +14,8 @@ set gfn=Inconsolata\ for\ Powerline\ 17
 
 syntax enable
 filetype plugin indent on
-colorscheme kolor
+" colorscheme kolor
+colorscheme jellygrass
 
 let g:syntastic_rst_checkers = ['rstcheck']
 let g:Powerline_symbols = 'fancy'
