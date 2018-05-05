@@ -2,20 +2,21 @@ syntax enable
 filetype plugin indent on
 
 " Enable italic. Default: 1
-let g:kolor_italic=1
+" let g:kolor_italic=1
 
 " Enable bold. Default: 1
-let g:kolor_bold=1
+" let g:kolor_bold=1
 
 " Enable underline. Default: 0
-let g:kolor_underlined=0
+" let g:kolor_underlined=0
 
 " Gray 'MatchParen' color. Default: 0
-let g:kolor_alternative_matchparen=0
+" let g:kolor_alternative_matchparen=0
 
 " White foreground 'MatchParen' color that might work better with some terminals. Default: 0
-let g:kolor_inverted_matchparen=0
-colorscheme kolor
+" let g:kolor_inverted_matchparen=0
+" colorscheme kolor
+colorscheme jellygrass
 if has('gui_running')
   set background=light
   set t_Co=16
@@ -29,9 +30,9 @@ set encoding=utf-8
 "Set to whatever font you like.
 set guifont=Inconsolata\ for\ Powerline:h17
  
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
  
 "Important for terminal vim to work in cygwin.
 set term=xterm-256color
