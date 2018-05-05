@@ -14,8 +14,8 @@ set gfn=Inconsolata\ for\ Powerline\ 17
 
 syntax enable
 filetype plugin indent on
-" colorscheme kolor
-colorscheme jellygrass
+colorscheme kolor
+" colorscheme jellygrass
 
 let g:syntastic_rst_checkers = ['rstcheck']
 let g:Powerline_symbols = 'fancy'
